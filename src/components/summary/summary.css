@@ -1,0 +1,61 @@
+.summary-items{
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+
+.plan-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 20px 0;
+    color: #06234e;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: lightgray;
+}
+.addon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.addon-text, .summary-text{
+    color: rgb(131, 131, 131);
+}
+
+.addon-price{
+    color: #06234e;
+    font-weight: bold;
+}
+
+.summary-price{
+    color: #7618c4;
+}
+
+.summary-total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.button-submit{
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 400ms;
+    background-color: #483EFF;
+    color: white;
+    font-size: 16px;
+}

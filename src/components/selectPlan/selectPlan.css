@@ -1,0 +1,27 @@
+.plans{
+    display: flex;
+}
+
+.select-box{
+    margin-bottom: 60px;
+}
+
+.switch-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+span{
+    transition: 600ms all;
+    font-weight: bold;
+}
+
+#yearly{
+    color: lightgray;
+}
+
+#monthly{
+    color: #07285a;
+}

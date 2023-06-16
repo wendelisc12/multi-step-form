@@ -1,0 +1,28 @@
+#input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#input-box label{
+    margin-bottom: 5px;
+    color: #07285a;
+    font-size: 16px;
+}
+
+#input-box input{
+    height: 45px;
+    border-radius: 8px;
+    font-size: 15px ;
+    padding-left: 10px;
+    border: 1px solid lightgray;    
+}
+
+#input-box input:focus{
+    outline: solid #670db1 1px;
+}
+
+#input-box input::placeholder{
+    color: rgb(163, 163, 163);
+}

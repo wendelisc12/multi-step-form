@@ -1,0 +1,31 @@
+#form-box{
+    flex: 1;
+}
+
+.form-box-principal{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.button-submit{
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 400ms;
+    background-color: #07285a;
+    color: white;
+}
+
+.button-submit:hover{
+    filter: brightness(0.8);
+}
+
+.button-submit:disabled{
+    background-color: rgba(95, 95, 95, 0.527);
+}

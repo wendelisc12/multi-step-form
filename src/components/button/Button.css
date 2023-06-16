@@ -1,0 +1,26 @@
+.button{
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 400ms;
+}
+
+.next{
+    background-color: #07285a;
+    color: white;
+}
+
+.next:hover{
+    filter: brightness(0.8);
+}
+
+
+.previous{
+    font-weight: bold;
+    color: rgb(151, 151, 151);
+}

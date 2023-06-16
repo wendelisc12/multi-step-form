@@ -1,0 +1,23 @@
+.principal-thanks{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.img-thanks{
+    margin-bottom: 20px;
+}
+
+.desc-thanks{
+    text-align: center;
+}
+
+.desc-thanks h1{
+    color: #07285a;
+}
+
+.desc-thanks p{
+    color: rgb(143, 142, 142);
+}
